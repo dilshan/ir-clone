@@ -1,0 +1,72 @@
+object frmDuplicate: TfrmDuplicate
+  Left = 696
+  Height = 107
+  Top = 358
+  Width = 236
+  ActiveControl = txtProfile
+  BorderStyle = bsDialog
+  Caption = 'Duplicate profile'
+  ClientHeight = 107
+  ClientWidth = 236
+  DefaultMonitor = dmMainForm
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.0.8.0'
+  object lblsDuplicateID: TLabel
+    Left = 16
+    Height = 15
+    Top = 24
+    Width = 130
+    Caption = '&Destination profile:'
+    FocusControl = txtProfile
+    ParentColor = False
+  end
+  object txtProfile: TEdit
+    AnchorSideLeft.Control = lblsDuplicateID
+    AnchorSideLeft.Side = asrBottom
+    Left = 154
+    Height = 33
+    Top = 16
+    Width = 53
+    BorderSpacing.Left = 8
+    MaxLength = 4
+    OnEditingDone = txtProfileEditingDone
+    TabOrder = 0
+    Text = '9999'
+  end
+  object updProfile: TUpDown
+    Left = 207
+    Height = 33
+    Top = 16
+    Width = 17
+    Associate = txtProfile
+    Min = 0
+    OnChangingEx = updProfileChangingEx
+    Position = 100
+    TabOrder = 1
+    Thousands = False
+  end
+  object btnCancel: TButton
+    Left = 66
+    Height = 31
+    Top = 65
+    Width = 75
+    Anchors = [akTop]
+    Caption = '&Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object btnOK: TButton
+    AnchorSideLeft.Side = asrBottom
+    Left = 149
+    Height = 31
+    Top = 64
+    Width = 75
+    Anchors = []
+    BorderSpacing.Left = 8
+    Caption = '&OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 3
+  end
+end
