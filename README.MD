@@ -1,8 +1,9 @@
-
 IR Remote Control Clone Utility
 ===============================
 
 IR Clone is an open-source infrared remote control signal analysis and generating tool. This utility can clone IR signals, examine the IR remote control signals, and modify or create new IR signals. 
+
+[![IR Clone build video](https://raw.githubusercontent.com/dilshan/ir-clone/main/resources/images/ir-clone-video-thumbnail.jpg)](https://youtu.be/PBt0_21yzKo)
 
 This project consists of both hardware and software utilities. The hardware module contains an 8-bit MCU, 32Kbit EEPROM, IR receiver, and transmitter.
 
