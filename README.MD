@@ -11,7 +11,7 @@ The software application provides options to decode captured data and generate n
 
 IR Clone is an open-source project. All the schematics, PCB design files, firmware source codes, and application source codes are available in this repository.
 
-The complete [documentation](https://github.com/dilshan/ir-clone/wiki) of this project is available in the [wiki](https://github.com/dilshan/ir-clone/wiki) section of this repository. The PCB Gerber files and compiled binaries are also available in the release section of this repository.
+The complete [documentation](https://github.com/dilshan/ir-clone/wiki) of this project is available in the [wiki](https://github.com/dilshan/ir-clone/wiki) section of this repository. The PCB Gerber files and compiled binaries are also available in the [release](https://github.com/dilshan/ir-clone/releases) section of this repository.
 
 All the content of this project are distributed under the terms of the following license:
 
